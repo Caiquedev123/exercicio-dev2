@@ -1,0 +1,76 @@
+@font-face {
+    font-family: ftn1;
+    src: url("../imagens/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+    font-family: ftn2;
+    src: url("../imagens/fonts/static/Inter-Bold.ttf");
+}
+
+@font-face {
+    font-family: ftn3;
+    src: url("../imagens/fonts/static/Inter-Regular.ttf");
+}
+
+@font-face {
+    font-family: ftn4;
+    src: url("../imagens/fonts/static/Inter-SemiBold.ttf");
+}
+
+body{
+    background-color: rgba(16, 14, 14, 0.936);
+    padding: 200px;
+}
+
+.container{
+    background-color: rgba(125, 120, 120, 0.058);
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container img{
+    width: 60px;
+    border-radius: 50%;
+    padding-top: 20px;
+}
+
+.container h1{
+    color: white;
+    font-family: ftn4;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.container .nome{
+    color: rgba(255, 255, 0, 0.847);
+    font-size: 13px;
+    font-family: ftn4;
+    padding: 10px 0 30px 0;
+}
+
+.container p{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.container ul{
+    padding: 0 0 10px 0 ;
+}
+
+.container ul li{
+    color: white;
+    background-color: rgba(75, 68, 68, 0.181);
+    margin: 10px;
+    padding: 15px;
+    font-family: ftn2;
+    border-radius: 6px;
+}
+
+.container ul li:hover{
+    background-color: white;
+    color: black;
+}
